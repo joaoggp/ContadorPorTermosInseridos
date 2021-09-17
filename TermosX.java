@@ -21,7 +21,7 @@ public class TermosX {
         System.out.println(valor1);
         System.out.println(valor2);
         System.out.println(valor3);
-        while (termos > counter) {
+        while (termos != counter) {
             valor1 = valor1 * 2;
             System.out.println(valor1);
             valor2 = valor2 * 3;
